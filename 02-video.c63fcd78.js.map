@@ -1,0 +1,1 @@
+{"mappings":"YAAA,IAAMA,EAAQC,SAASC,eAAe,gBACtCC,QAAQC,IAAIJ,E","sources":["src/js/02-video.js"],"sourcesContent":["const video = document.getElementById(\"video-player\");\nconsole.log(video)\n"],"names":["$5a94271ad32ea534$var$video","document","getElementById","console","log"],"version":3,"file":"02-video.c63fcd78.js.map"}
