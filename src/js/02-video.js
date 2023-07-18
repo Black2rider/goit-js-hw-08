@@ -6,7 +6,6 @@ const player = new Player('vimeo-player', {
 player.on('timeupdate', function(data) {
   try {
     let local = localStorage.setItem("videoplayer-current-time", JSON.stringify(data.seconds));  
-    local_.throttle(updatePosition, 100)
   } catch(error) {
     console.log(error.name);
   }
